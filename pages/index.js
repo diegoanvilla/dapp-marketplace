@@ -83,7 +83,7 @@ export default function Home() {
       <div className={styles.jumbotron}>
         <FadeInSection className={styles.jumbotronTitleSection}>
           <h1>Checkea Nuevos NFT&apos;s</h1>
-          <p>Marketplace de NFT's completamente descentralizado</p>
+          <p>Marketplace de NFTs completamente descentralizado</p>
           <div className={styles.buttons}>
             <button className={styles.primaryButton} onClick={connectWeb3Modal}>
               {account ? account : "Connect Wallet"}
