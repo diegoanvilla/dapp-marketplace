@@ -89,7 +89,10 @@ export function NavbarWrapper({ children }) {
         </div>
 
         <div className={`${styles.buttons}`} onClick={connectWeb3Modal}>
-          <button className={styles.primaryButton}>
+          <button
+            className={styles.primaryButton}
+            style={{ maxWidth: account ? "auto" : "200px" }}
+          >
             {account ? account : "Connect Wallet"}
           </button>
         </div>
