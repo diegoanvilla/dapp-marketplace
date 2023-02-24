@@ -1,0 +1,36 @@
+@use "./color" as c;
+.modal {
+  background-color: c.$TitleDarkBackground;
+  color: white;
+  position: fixed;
+  top: 7vh;
+  right: 0;
+  left: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+.goIn {
+  animation: 0.4s rollin;
+}
+.goBack {
+  animation: 0.4s rollout;
+}
+@keyframes rollin {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes rollout {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

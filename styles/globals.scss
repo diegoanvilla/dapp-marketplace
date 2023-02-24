@@ -1,0 +1,26 @@
+@use "./color" as c;
+@font-face {
+  font-family: "LeelaUIb";
+  src: url("../public/fonts/LeelaUIb.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeelawUI";
+  src: url("../public/fonts/LeelawUI.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LeelUIsl";
+  src: url("../public/fonts/LeelUIsl.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+* {
+  font-family: "LeelawUI", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: c.$Black;
+}
