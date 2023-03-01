@@ -59,7 +59,7 @@ export function NavbarWrapper({ children }) {
     <>
       <div className={`${styles.navbar} ${styles.navLight}`}>
         <div className={`${styles.navSection} links`}>
-          <Link href="https://web-dapp-profile.vercel.app/">
+          <Link href="/">
             <a>
               <span className="material-symbols-outlined">home</span>
               Home
